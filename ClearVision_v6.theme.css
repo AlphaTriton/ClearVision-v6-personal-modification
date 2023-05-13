@@ -15,13 +15,12 @@
 
 /* SETTINGS */
 :root {
-  /* ACCENT COLORS */
-  --main-color: #2780e6; /* main accent color (hex, rgb or hsl) [default: #2780e6] */
+  /* ACCENT COLORS */ /* main color: #ff4343d5 */
+  --main-color: #43ff5cd5; /* main accent color (hex, rgb or hsl) [default: #2780e6] */
   --hover-color: #1e63b3; /* hover accent color (hex, rgb or hsl) [default: #1e63b3] */
   --success-color: #43b581; /* success accent color (hex, rgb or hsl) [default: #43b581] */
   --danger-color: #982929; /* danger accent color (hex, rgb or hsl) [default: #982929] */
-  --url-color: var(--main-color); /*The color of url links [default: var(--main-color)]*/
-
+  --url-color: #00eeff; /*The color of url links [default: var(--main-color)]*/
   /* STATUS COLORS */
   --online-color: #43b581; /* online status color (hex, rgb or hsl) [default: #43b581] */
   --idle-color: #faa61a; /* idle status color (hex, rgb or hsl) [default: #faa61a] */
@@ -32,15 +31,16 @@
   /* GENERAL */
   --main-font: gg sans, Helvetica Neue, Helvetica, Arial, sans-serif; /* main font for app (font must be installed) [default: gg sans, Helvetica Neue, Helvetica, Arial, sans-serif] */
   --code-font: Consolas, Liberation Mono, Menlo, Courier, monospace; /* font for codeblocks (font must be installed) [default: Consolas, Liberation Mono, Menlo, Courier, monospace] */
-  --text-normal: rgb(220, 221, 222); /* color of default discord text */
-  --text-muted: rgb(114, 118, 125); /* color of default discord muted text (e.g.text found in input fields before typing).*/
+  --text-normal: rgb(255, 255, 255); /* color of default discord text */
+  --text-muted: rgb(219, 219, 219); /* color of default discord muted text (e.g.text found in input fields before typing).*/
   --channels-width: 220px; /* channel list width (240px for Discord default) [default: 220px] */
-  --members-width: 240px; /* member list width [default: 240px] */
+  /*250px*/
+  --members-width: 0px; /* member list width [default: 240px] */
 
   /* APP BACKGROUND */
-  --background-shading: 100%; /* app background shading (0 for complete smoothness) [default: 100%] */
-  --background-overlay: rgba(0, 0, 0, 0.6); /* app background overlay color/gradient [default: rgba(0, 0, 0, 0.6)] */
-  --background-image: url(https://clearvision.github.io/images/sapphire.jpg); /* app background image (link must be HTTPS) [default: url(https://clearvision.github.io/images/sapphire.jpg)]*/
+  --background-shading: 0%; /* app background shading (0 for complete smoothness) [default: 100%] */
+  --background-overlay: rgba(0, 0, 0, 0.349); /* app background overlay color/gradient [default: rgba(0, 0, 0, 0.6)] */
+  --background-image: url(https://cdn.discordapp.com/attachments/296089796403658752/972989990214709258/BRRRRRRRT.5lowsize_waifu2x_art_noise3_scale_tta_1.png); /* app background image (link must be HTTPS) [default: url(https://clearvision.github.io/images/sapphire.jpg)]*/
   --background-position: center; /* app background position [default: center] */
   --background-size: cover; /* app background size [default: cover] */
   --background-repeat: no-repeat; /* app background repeat [default: no-repeat] */
@@ -58,14 +58,14 @@
   --home-position: center; /* home button icon position [default: center] */
   --home-size: 40px; /* home button icon size [default: 40px] */
 
-  /* CHANNEL COLORS */
-  --channel-unread: var(--main-color); /* Unread Server channel color. [default:  var(--main-color)] THIS OVERRIDES YOUR MAIN COLOR*/
-  --channel-color: rgba(255, 255, 255, 0.3); /*Read Server channel color  [default: rgba(255,255,255,0.3);]*/
+  /* CHANNEL COLORS */ /*unread: #ffbb00*/
+  --channel-unread: #ff9900; /* Unread Server channel color. [default:  var(--main-color)] THIS OVERRIDES YOUR MAIN COLOR*/
+  --channel-color: rgba(182, 182, 182, 0.863); /*Read Server channel color  [default: rgba(255,255,255,0.3);]*/
   --channel-text-selected: #fff; /* Selected channel text color, CV default is #fff */
-  --muted-color: rgba(255, 255, 255, 0.1); /*Muted channel color  [default: rgba(255,255,255,0.1);]*/
+  --muted-color: rgba(255, 255, 255, 0.445); /*Muted channel color  [default: rgba(255,255,255,0.1);]*/
 
   /* MODAL BACKDROP */
-  --backdrop-overlay: rgba(0, 0, 0, 0.8); /* modal backdrop overlay color/gradient [default: rgba(0, 0, 0, 0.8)] */
+  --backdrop-overlay: rgba(0, 0, 0, 0.548); /* modal backdrop overlay color/gradient [default: rgba(0, 0, 0, 0.8)] */
   --backdrop-image: var(--background-image); /* modal backdrop image (link must be HTTPS) [default: var(--background-image)] */
   --backdrop-position: var(--background-position); /* modal backdrop position [default: var(--background-position)] */
   --backdrop-size: var(--background-size); /* modal backdrop size [default: var(--background-size)] */
@@ -92,7 +92,7 @@
   --user-popout-grayscale: var(--background-grayscale); /* user popout background grayscale (0 - 100%) [default: var(--background-grayscale)] */
   --user-popout-sepia: var(--background-sepia); /* user popout background sepia (0 - 100%) [default: var(--background-sepia)] */
   --user-popout-blur: calc(var(--background-blur) + 3px); /* user popout background blur [default: calc(var(--background-blur) + 3px)] */
-  --user-popout-overlay: rgba(0, 0, 0, 0.6); /* user popout overlay color [default: rgba(0, 0, 0, .6)] */
+  --user-popout-overlay: rgba(0, 0, 0, 0.397); /* user popout overlay color [default: rgba(0, 0, 0, .6)] */
 
   /* USER MODAL BACKGROUND */
   --user-modal-image: var(--background-image); /* app background image (link must be HTTPS) [default: var(--background-image)] */
