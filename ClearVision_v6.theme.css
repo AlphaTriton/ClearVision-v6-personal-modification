@@ -35,7 +35,7 @@
   --text-muted: rgb(219, 219, 219); /* color of default discord muted text (e.g.text found in input fields before typing).*/
   --channels-width: 220px; /* channel list width (240px for Discord default) [default: 220px] */
   /*250px*/
-  --members-width: 0px; /* member list width [default: 240px] */
+  --members-width: 240px; /* member list width [default: 240px] */
 
   /* APP BACKGROUND */
   --background-shading: 0%; /* app background shading (0 for complete smoothness) [default: 100%] */
